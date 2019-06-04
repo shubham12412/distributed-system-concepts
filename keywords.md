@@ -10,7 +10,7 @@
 
 5) durable
 
-6) highly available
+6) highly available,  high availability
 
 7) fast writes
 
@@ -40,6 +40,10 @@
 
 20) latency
 
-21) SHARDING AND SHARED-NOTHING ARCHITECTURE
+21) SHARDING AND SHARED-NOTHING ARCHITECTURE,  auto-sharding, 
 
-22) 
+22)  master/slave
+
+23) ability to scale to a very large number of machines
+
+24) 
