@@ -6,7 +6,7 @@
 
 3) tuneably consistent, eventually consistent data store, 
 
-4) scalable
+4) scalable, scalability
 
 5) durable
 
@@ -26,4 +26,20 @@
 
 13) data-driven applications
 
-14) 
+14) data replication and consistency
+
+15) failover  - a procedure by which a system automatically transfers control to a duplicate system when it detects a fault or failure
+
+16) vertical scaling
+
+17) non-relational data stores
+
+18) horizontally scale
+
+19) https://en.wikipedia.org/wiki/Two-phase_commit_protocol
+
+20) latency
+
+21) SHARDING AND SHARED-NOTHING ARCHITECTURE
+
+22) 
