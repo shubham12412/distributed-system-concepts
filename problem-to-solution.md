@@ -50,5 +50,12 @@ Sharding could be termed a kind of “shared-nothing” architecture that’s sp
 
 
 -----------------------------------------------------------------------------------------------------------------
+3.
+
+If you take a look, you’ll see that many of the features of shared-nothing distributed data architecture, such as ease of high availability and the ability to scale to a very large number of machines, are the very things that Cassandra excels at.
+
+MongoDB also provides auto-sharding capabilities to manage failover and node balancing. That many non-relational databases offer this automatically and out of the box is very handy; creating and maintaining custom data shards by hand is a wicked proposition. It’s good to understand sharding in terms of data architecture in general, but especially in terms of Cassandra more specifically, as it can take an approach similar to key-based sharding to distribute data across nodes, but does so automatically.
+
+-------------------------------------------------------------------------------------------------------------------
 
 
