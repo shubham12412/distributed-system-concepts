@@ -18,6 +18,7 @@ We typically address these problems in one or more of the following ways, someti
 1.6) We turn our attention to the database again and decide that, now that the application is built and we understand the primary query paths, we can duplicate some of the data to make it look more like the queries that access it. This process, called ***denormalization***, is antithetical to the five normal forms that characterize the relational model, and violates Codd’s 12 Rules for relational data. We remind ourselves that we live in this world, and not in some theoretical cloud, and then undertake to do what we must to make the application start responding at acceptable levels again, even if it’s no longer “pure.”
 
 ------------------------------------------------------------------------------------------------------------------------
+2) 
 
 Another way to attempt to scale a relational database is to introduce sharding to your architecture. This has been used to good effect at large websites such as eBay, which supports billions of SQL queries a day, and in other modern web applications. The idea here is that you split the data so that instead of hosting all of it on a single server or replicating all of the data on all of the servers in a cluster, you divide up portions of the data horizontally and host them each separately.
 
@@ -31,6 +32,23 @@ It seems clear that in order to shard, you need to find a good key by which to o
 
 There are three basic strategies for determining shard structure:
 
+Feature-based shard or functional segmentation
 
+This is the approach taken by Randy Shoup, Distinguished Architect at eBay, who in 2006 helped bring the site’s architecture into maturity to support many billions of queries per day.  Using this strategy, the data is split not by dividing records in a single table (as in the customer example discussed earlier), but rather by splitting into separate databases the features that don’t overlap with each other very much. For example, at eBay, the users are in one shard, and the items for sale are in another. At Flixster, movie ratings are in one shard and comments are in another. This approach depends on understanding your domain so that you can segment data cleanly.
+
+Key-based sharding
+
+In this approach, you find a key in your data that will evenly distribute it across shards. So instead of simply storing one letter of the alphabet for each server as in the (naive and improper) earlier example, you use a one-way hash on a key data element and distribute data across machines according to the hash. It is common in this strategy to find time-based or numeric keys to hash on.
+
+
+Lookup table
+
+In this approach, one of the nodes in the cluster acts as a “yellow pages” directory and looks up which node has the data you’re trying to access. This has two obvious disadvantages. The first is that you’ll take a performance hit every time you have to go through the lookup table as an additional hop. The second is that the lookup table not only becomes a bottleneck, but a single point of failure.
+
+
+Sharding could be termed a kind of “shared-nothing” architecture that’s specific to databases. A shared-nothing architecture is one in which there is no centralized (shared) state, but each node in a distributed system is independent, so there is no client contention for shared resources.
+
+
+-----------------------------------------------------------------------------------------------------------------
 
 
