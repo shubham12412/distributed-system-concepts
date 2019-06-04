@@ -19,6 +19,18 @@ We typically address these problems in one or more of the following ways, someti
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Another way to attempt to scale a relational database is to introduce sharding to your architecture. This has been used to good effect at large websites such as eBay, which supports billions of SQL queries a day, and in other modern web applications. The idea here is that you split the data so that instead of hosting all of it on a single server or replicating all of the data on all of the servers in a cluster, you divide up portions of the data horizontally and host them each separately.
+
+
+
+For example, consider a large customer table in a relational database. The least disruptive thing (for the programming staff, anyway) is to vertically scale by adding CPU, adding memory, and getting faster hard drives, but if you continue to be successful and add more customers, at some point (perhaps into the tens of millions of rows), you’ll likely have to start thinking about how you can add more machines. When you do so, do you just copy the data so that all of the machines have it? Or do you instead divide up that single customer table so that each database has only some of the records, with their order preserved? Then, when clients execute queries, they put load only on the machine that has the record they’re looking for, with no load on the other machines.
+
+
+It seems clear that in order to shard, you need to find a good key by which to order your records. For example, you could divide your customer records across 26 machines, one for each letter of the alphabet, with each hosting only the records for customers whose last names start with that particular letter. It’s likely this is not a good strategy, however—there probably aren’t many last names that begin with “Q” or “Z,” so those machines will sit idle while the “J,” “M,” and “S” machines spike. You could shard according to something numeric, like phone number, “member since” date, or the name of the customer’s state. It all depends on how your specific data is likely to be distributed.
+
+
+There are three basic strategies for determining shard structure:
+
 
 
 
