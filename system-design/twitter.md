@@ -4,4 +4,6 @@
 
 3) https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/ch01.html
 
+4) https://www.infoq.com/presentations/Twitter-Timeline-Scalability/
+
 
