@@ -2,4 +2,6 @@
 
 2) https://github.com/twitter-archive/gizzard
 
-3) 
+3) https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/ch01.html
+
+
