@@ -9,3 +9,5 @@
 3) https://medium.com/netflix-techblog
 
 4) http://highscalability.com/
+
+5) https://medium.com/@NetflixTechBlog
