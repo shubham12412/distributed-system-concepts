@@ -11,3 +11,5 @@
 4) http://highscalability.com/
 
 5) https://medium.com/@NetflixTechBlog
+
+6) https://martinfowler.com/articles/schemaless/
