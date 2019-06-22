@@ -10,16 +10,16 @@ http://denmarkblog.timesinternet.in/blogs/graph/times-internet-is-using-janusgra
 
 
 
-https://neo4j.com/
+https://neo4j.com/ \
 https://github.com/neo4j
 
 
-https://janusgraph.org/
-https://github.com/JanusGraph/janusgraph
+https://janusgraph.org/ \
+https://github.com/JanusGraph/janusgraph \
 https://opensource.googleblog.com/2017/01/janusgraph-connects-past-and-future-of-titan.html
 
 
-https://titan.thinkaurelius.com/
+https://titan.thinkaurelius.com/ \
 https://github.com/thinkaurelius/titan
 
 
