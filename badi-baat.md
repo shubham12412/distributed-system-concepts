@@ -4,5 +4,7 @@ https://en.wikipedia.org/wiki/Bigtable
 
 https://aws.amazon.com/dynamodb/
 
+https://cloud.google.com/spanner/
+
 
 
