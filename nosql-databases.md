@@ -11,3 +11,12 @@ There is wide variety in the goals and features of these databases, but they ten
 4) They tend to support rapid development and deployment. They take ***flexible approaches to schema definition***, in some cases not requiring any schema to be defined up front. 
 
 5) They provide support for Big Data and analytics use cases.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+### Difference
+
+#### HBase versus Cassandra versus Accumulo
+
+http://bigdata-guide.blogspot.com/2014/01/hbase-versus-cassandra-versus-accumulo.html
+
