@@ -20,3 +20,19 @@ There is wide variety in the goals and features of these databases, but they ten
 
 http://bigdata-guide.blogspot.com/2014/01/hbase-versus-cassandra-versus-accumulo.html
 
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+https://blog.ippon.tech/use-cassandra-mongodb-hbase-accumulo-mysql/
+
+https://www.dataversity.net/the-nosql-movement-graph-databases/
+
+https://www.dataversity.net/the-nosql-movement-key-value-databases/
+
+https://www.dataversity.net/the-nosql-movement-what-is-it/
+
+https://en.wikipedia.org/wiki/Bigtable
+
+https://en.wikipedia.org/wiki/Amazon_DynamoDB
+
