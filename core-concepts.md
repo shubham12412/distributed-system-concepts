@@ -8,3 +8,4 @@
 
 4) https://llimllib.github.io/bloomfilter-tutorial/
 
+5) https://en.wikipedia.org/wiki/Bitmap_index
