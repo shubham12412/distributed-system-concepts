@@ -4,3 +4,5 @@ The basic unit of storage in a document database is the complete document, often
 YAML. Popular document stores include MongoDB and CouchDB.
 
 
+https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store
+
