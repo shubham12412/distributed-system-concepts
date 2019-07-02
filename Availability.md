@@ -9,3 +9,5 @@ Cassandra is highly available. You can replace failed nodes in the cluster with 
 
 https://github.blog/2012-09-14-github-availability-this-week/
 
+https://github.blog/2012-12-26-downtime-last-saturday/
+
