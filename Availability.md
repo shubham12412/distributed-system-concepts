@@ -5,3 +5,7 @@ In general architecture terms, the availability of a system is measured accordin
 Cassandra is highly available. You can replace failed nodes in the cluster with no downtime, and you can replicate data to multiple data centers to offer improved local performance and prevent downtime if one data center experiences a catastrophe such as fire or flood.
 
 
+
+
+https://github.blog/2012-09-14-github-availability-this-week/
+
