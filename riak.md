@@ -14,4 +14,7 @@ https://www.quora.com/Riak-Which-is-better-Bitcask-or-LevelDB
 
 http://byteus.tech/riak-from-bitcask-to-leveldb/
 
+https://docs.riak.com/riak/1.4.8/
+
+
 
