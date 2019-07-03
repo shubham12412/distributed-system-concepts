@@ -9,3 +9,5 @@
 4) https://llimllib.github.io/bloomfilter-tutorial/
 
 5) https://en.wikipedia.org/wiki/Bitmap_index
+
+6) http://martin.kleppmann.com/2012/06/18/java-hashcode-unsafe-for-distributed-systems.html
