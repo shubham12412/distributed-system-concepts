@@ -4,3 +4,5 @@
 
 3) http://www.larsgeorge.com/2009/11/hbase-vs-bigtable-comparison.html
 
+4) https://hbase.apache.org/book.html#book
+
