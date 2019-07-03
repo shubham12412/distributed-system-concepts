@@ -2,3 +2,5 @@
 
 2) https://code.fb.com/core-data/hydrabase-the-evolution-of-hbase-facebook/
 
+3) http://www.larsgeorge.com/2009/11/hbase-vs-bigtable-comparison.html
+
