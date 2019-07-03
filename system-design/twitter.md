@@ -6,4 +6,4 @@
 
 4) https://www.infoq.com/presentations/Twitter-Timeline-Scalability/
 
-
+5) https://mashable.com/2010/09/07/justin-bieber-twitter/
