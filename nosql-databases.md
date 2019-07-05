@@ -46,3 +46,10 @@ https://en.wikipedia.org/wiki/Amazon_DynamoDB
 
 -----------------------------------------------------------------------------------------------------------------------
 
+### data stores which prefer stronger consistency (C in CAP threorem)
+1) https://hbase.apache.org/
+2) https://www.couchbase.com/
+3) https://redis.io/
+4) https://zookeeper.apache.org/
+
+
