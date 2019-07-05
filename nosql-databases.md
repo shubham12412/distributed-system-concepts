@@ -36,3 +36,13 @@ https://en.wikipedia.org/wiki/Bigtable
 
 https://en.wikipedia.org/wiki/Amazon_DynamoDB
 
+----------------------------------------------------------------------------------------------------------------------
+
+### available distributed databases  (A in CAP theorem)
+1) http://cassandra.apache.org/
+2) https://riak.com/products/riak-kv/
+3) http://www.project-voldemort.com/voldemort/
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
